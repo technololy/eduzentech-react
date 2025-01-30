@@ -7,6 +7,10 @@ export const paths = {
     customers: '/dashboard/customers',
     integrations: '/dashboard/integrations',
     settings: '/dashboard/settings',
+    school: {
+      portal: '/dashboard/school/portal',
+      academic: '/dashboard/school/academic',
+    },
   },
   errors: { notFound: '/errors/not-found' },
 } as const;
